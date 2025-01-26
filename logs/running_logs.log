@@ -1169,3 +1169,43 @@ x==========x]
 [2025-01-08 20:49:26,012: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
 
 x==========x]
+[2025-01-26 13:05:54,528: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-26 13:05:54,535: INFO: common: yaml file: E:\works\chest_cancer-mlops\Chest-Cancer-Detection-using-MLOps\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-26 13:05:54,550: INFO: common: yaml file: E:\works\chest_cancer-mlops\Chest-Cancer-Detection-using-MLOps\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-26 13:05:54,550: INFO: common: created directory at: artifacts]
+[2025-01-26 13:05:54,550: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-26 13:05:54,566: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-01-26 13:06:05,204: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-01-26 13:06:05,704: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-26 13:09:21,562: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-26 13:09:21,565: INFO: common: yaml file: E:\works\chest_cancer-mlops\Chest-Cancer-Detection-using-MLOps\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-26 13:09:21,569: INFO: common: yaml file: E:\works\chest_cancer-mlops\Chest-Cancer-Detection-using-MLOps\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-26 13:09:21,569: INFO: common: created directory at: artifacts]
+[2025-01-26 13:09:21,570: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-26 13:09:21,570: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-01-26 13:09:30,998: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-01-26 13:09:31,472: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-26 13:15:51,466: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-26 13:15:51,466: INFO: common: yaml file: E:\works\chest_cancer-mlops\Chest-Cancer-Detection-using-MLOps\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-26 13:15:51,478: INFO: common: yaml file: E:\works\chest_cancer-mlops\Chest-Cancer-Detection-using-MLOps\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-26 13:15:51,482: INFO: common: created directory at: artifacts]
+[2025-01-26 13:15:51,483: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-26 13:15:51,484: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-01-26 13:16:06,332: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-01-26 13:16:06,774: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-26 13:16:54,814: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-26 13:16:54,814: INFO: common: yaml file: E:\works\chest_cancer-mlops\Chest-Cancer-Detection-using-MLOps\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-26 13:16:54,829: INFO: common: yaml file: E:\works\chest_cancer-mlops\Chest-Cancer-Detection-using-MLOps\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-26 13:16:54,831: INFO: common: created directory at: artifacts]
+[2025-01-26 13:16:54,832: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-26 13:16:54,833: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-01-26 13:17:04,785: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-01-26 13:17:05,222: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
