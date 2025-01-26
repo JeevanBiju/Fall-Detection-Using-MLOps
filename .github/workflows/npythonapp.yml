@@ -1,0 +1,52 @@
+name: MLOps Chest Cancer Detection CI
+
+on:
+  push:
+    branches:
+      - main  # Trigger on pushes to the main branch
+  pull_request:
+    branches:
+      - main  # Trigger on pull requests to the main branch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest  # Run on the latest Ubuntu image
+
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v3  # Checkout the repository
+
+    - name: Set up Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.9'  # Specify the Python version
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install -r requirements.txt  # Install dependencies from requirements.txt
+
+    - name: Run Data Ingestion Pipeline
+      run: |
+        python src/ChestCancerClassifier/pipeline/stage_01_data_ingestion.py
+
+    - name: Prepare the Base Model
+      run: |
+        python src/ChestCancerClassifier/pipeline/stage_02_prepare_base_model.py
+
+    - name: Train the Model
+      run: |
+        python src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py
+
+    - name: Evaluate the Model
+      run: |
+        python src/ChestCancerClassifier/pipeline/stage_04_model_evaluation.py
+
+    - name: Feedback Retraining
+      run: |
+        python src/ChestCancerClassifier/pipeline/stage_05_feedback_retrain.py
+
+    - name: Start the Prediction App
+      run: |
+        nohup python app.py &  # Run the app in the background
+        sleep 10  # Wait for the app to start (adjust if needed)

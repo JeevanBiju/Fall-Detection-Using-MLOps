@@ -1,0 +1,12 @@
+# Ensure consistent LF line endings for all text files
+* text=auto
+
+# Explicitly use LF for Python files
+*.py text eol=lf
+
+# Explicitly use LF for YAML files
+*.yaml text eol=lf
+
+# Ignore changes in line endings for configuration files
+config.yaml text eol=lf
+params.yaml text eol=lf

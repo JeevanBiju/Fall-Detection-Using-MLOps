@@ -1,0 +1,1171 @@
+[2024-10-16 15:22:11,493: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-16 15:22:11,496: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-16 15:22:11,496: INFO: common: created directory at: artifacts]
+[2024-10-16 15:22:11,496: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-16 15:22:11,496: INFO: 4051216940: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-16 15:22:51,090: INFO: 4051216940: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-16 15:23:59,569: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-16 15:23:59,569: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-16 15:24:01,068: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-16 15:24:01,072: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-16 15:24:01,075: INFO: common: created directory at: artifacts]
+[2024-10-16 15:24:01,077: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-10-16 15:24:41,543: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-16 15:25:29,601: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-16 15:25:29,601: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-16 15:25:30,646: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-16 15:25:30,650: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-16 15:25:30,652: INFO: common: created directory at: artifacts]
+[2024-10-16 15:25:30,654: INFO: common: created directory at: artifacts\training]
+[2024-10-16 19:07:55,921: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-16 19:07:55,939: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-16 19:07:55,944: INFO: common: created directory at: artifacts]
+[2024-10-16 19:07:55,952: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-16 19:07:55,956: INFO: 4051216940: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-16 19:09:17,186: INFO: 4051216940: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-16 22:52:45,717: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-16 22:52:45,725: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-16 22:52:45,729: INFO: common: created directory at: artifacts]
+[2024-10-16 22:52:45,731: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-16 22:52:45,734: INFO: 4051216940: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 11:45:40,151: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 11:45:40,156: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 11:45:40,158: INFO: common: created directory at: artifacts]
+[2024-10-17 11:45:40,159: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-17 11:45:40,162: INFO: 4051216940: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 11:47:25,392: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 11:47:25,400: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 11:47:25,404: INFO: common: created directory at: artifacts]
+[2024-10-17 11:47:25,407: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-17 11:47:25,412: INFO: 4051216940: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 11:50:36,706: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-17 11:50:36,707: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-17 11:50:39,834: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-17 11:50:39,834: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 11:50:39,834: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 11:50:39,834: INFO: common: created directory at: artifacts]
+[2024-10-17 11:50:39,834: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-17 11:50:39,834: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 11:52:01,114: INFO: 4051216940: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 11:53:48,814: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 11:53:49,393: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-17 11:53:49,393: INFO: main: *******************]
+[2024-10-17 11:53:49,393: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-17 11:53:49,400: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 11:53:49,403: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 11:53:49,403: INFO: common: created directory at: artifacts]
+[2024-10-17 11:53:49,403: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-10-17 11:53:50,278: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-17 11:53:50,666: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-10-17 11:53:50,666: INFO: main: *******************]
+[2024-10-17 11:53:50,666: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-10-17 11:53:50,682: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 11:53:50,682: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 11:53:50,682: INFO: common: created directory at: artifacts]
+[2024-10-17 11:53:50,697: INFO: common: created directory at: artifacts\training]
+[2024-10-17 11:55:24,691: INFO: main: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-10-17 11:55:24,691: INFO: main: *******************]
+[2024-10-17 11:55:24,691: INFO: main: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-10-17 11:55:24,691: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 11:55:24,698: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 11:55:24,698: INFO: common: created directory at: artifacts]
+[2024-10-17 11:55:39,491: INFO: common: json file saved at: scores.json]
+[2024-10-17 11:55:39,493: INFO: common: json file saved at: scores.json]
+[2024-10-17 11:55:39,493: INFO: main: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-10-17 11:56:16,243: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-17 11:56:16,243: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 11:56:16,243: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 11:56:16,243: INFO: common: created directory at: artifacts]
+[2024-10-17 11:56:16,251: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-17 11:56:16,251: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 12:00:21,147: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 12:00:21,712: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-17 12:00:34,208: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-17 12:00:34,208: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-17 12:00:35,192: INFO: stage_02_prepare_base_model: *******************]
+[2024-10-17 12:00:35,192: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-17 12:00:35,211: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 12:00:35,227: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 12:00:35,232: INFO: common: created directory at: artifacts]
+[2024-10-17 12:00:35,233: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-10-17 12:00:36,219: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-17 12:00:36,523: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-10-17 12:00:44,177: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-17 12:00:44,177: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-17 12:00:45,274: INFO: stage_03_model_trainer: *******************]
+[2024-10-17 12:00:45,274: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-10-17 12:00:45,285: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 12:00:45,289: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 12:00:45,289: INFO: common: created directory at: artifacts]
+[2024-10-17 12:00:45,293: INFO: common: created directory at: artifacts\training]
+[2024-10-17 12:05:36,894: INFO: stage_03_model_trainer: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-10-17 12:05:52,031: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-17 12:05:52,031: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-17 12:05:54,324: INFO: stage_04_model_evaluation: *******************]
+[2024-10-17 12:05:54,324: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-10-17 12:05:54,324: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 12:05:54,342: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 12:05:54,356: INFO: common: created directory at: artifacts]
+[2024-10-17 12:06:11,676: INFO: common: json file saved at: scores.json]
+[2024-10-17 12:06:11,680: INFO: common: json file saved at: scores.json]
+[2024-10-17 12:06:11,682: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-10-17 14:06:44,475: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-17 14:06:44,475: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-17 14:06:47,198: INFO: main: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-17 14:06:47,198: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 14:06:47,198: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 14:06:47,198: INFO: common: created directory at: artifacts]
+[2024-10-17 14:06:47,198: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-17 14:06:47,206: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 14:06:59,496: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 14:07:00,067: INFO: main: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-17 14:07:00,067: INFO: main: *******************]
+[2024-10-17 14:07:00,067: INFO: main: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-17 14:07:00,067: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 14:07:00,067: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 14:07:00,067: INFO: common: created directory at: artifacts]
+[2024-10-17 14:07:00,067: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-10-17 14:07:00,884: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-17 14:07:01,240: INFO: main: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-10-17 14:07:01,248: INFO: main: *******************]
+[2024-10-17 14:07:01,249: INFO: main: >>>>>> stage Training started <<<<<<]
+[2024-10-17 14:07:01,249: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 14:07:01,249: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 14:07:01,249: INFO: common: created directory at: artifacts]
+[2024-10-17 14:07:01,255: INFO: common: created directory at: artifacts\training]
+[2024-10-17 14:17:39,505: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-17 14:17:39,505: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 14:17:39,505: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 14:17:39,505: INFO: common: created directory at: artifacts]
+[2024-10-17 14:17:39,505: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-17 14:17:39,505: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 14:17:52,156: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 14:17:52,811: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-17 14:18:04,704: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-17 14:18:04,705: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-17 14:18:05,667: INFO: stage_02_prepare_base_model: *******************]
+[2024-10-17 14:18:05,667: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-17 14:18:05,674: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 14:18:05,675: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 14:18:05,675: INFO: common: created directory at: artifacts]
+[2024-10-17 14:18:05,675: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-10-17 14:18:06,594: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-17 14:18:06,918: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-10-17 14:18:12,239: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-17 14:18:12,239: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-17 14:18:12,741: INFO: stage_03_model_trainer: *******************]
+[2024-10-17 14:18:12,741: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-10-17 14:18:12,741: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 14:18:12,741: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 14:18:12,741: INFO: common: created directory at: artifacts]
+[2024-10-17 14:18:12,741: INFO: common: created directory at: artifacts\training]
+[2024-10-17 14:20:04,352: INFO: stage_03_model_trainer: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-10-17 14:20:14,287: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-17 14:20:14,287: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-17 14:20:17,905: INFO: stage_04_model_evaluation: *******************]
+[2024-10-17 14:20:17,907: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-10-17 14:20:17,909: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 14:20:17,914: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 14:20:17,918: INFO: common: created directory at: artifacts]
+[2024-10-17 14:21:43,390: INFO: common: json file saved at: scores.json]
+[2024-10-17 14:21:43,403: INFO: common: json file saved at: scores.json]
+[2024-10-17 14:21:43,414: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-10-17 14:41:44,649: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-17 14:41:44,649: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 14:41:44,649: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 14:41:44,655: INFO: common: created directory at: artifacts]
+[2024-10-17 14:41:44,664: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-17 14:41:44,668: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 14:41:55,057: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 14:41:55,563: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-17 14:46:18,320: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-17 14:46:18,325: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 14:46:18,360: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 14:46:18,367: INFO: common: created directory at: artifacts]
+[2024-10-17 14:46:18,369: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-17 14:46:18,378: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 14:46:28,406: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 14:46:28,938: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-17 14:51:10,702: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-17 14:51:10,702: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-17 14:51:11,501: INFO: stage_02_prepare_base_model: *******************]
+[2024-10-17 14:51:11,501: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-17 14:51:11,501: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 14:51:11,508: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 14:51:11,508: INFO: common: created directory at: artifacts]
+[2024-10-17 14:51:11,508: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-10-17 14:51:12,303: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-17 14:51:12,612: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-10-17 14:51:19,311: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-17 14:51:19,311: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-17 14:51:20,137: INFO: stage_03_model_trainer: *******************]
+[2024-10-17 14:51:20,137: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-10-17 14:51:20,145: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 14:51:20,145: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 14:51:20,157: INFO: common: created directory at: artifacts]
+[2024-10-17 14:51:20,158: INFO: common: created directory at: artifacts\training]
+[2024-10-17 14:57:08,954: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-17 14:57:08,954: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-17 14:57:09,643: INFO: stage_03_model_trainer: *******************]
+[2024-10-17 14:57:09,643: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-10-17 14:57:09,643: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 14:57:09,661: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 14:57:09,661: INFO: common: created directory at: artifacts]
+[2024-10-17 14:57:09,663: INFO: common: created directory at: artifacts\training]
+[2024-10-17 15:01:26,280: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-17 15:01:26,280: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-17 15:01:26,899: INFO: stage_03_model_trainer: *******************]
+[2024-10-17 15:01:26,899: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-10-17 15:01:26,899: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 15:01:26,899: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 15:01:26,914: INFO: common: created directory at: artifacts]
+[2024-10-17 15:01:26,916: INFO: common: created directory at: artifacts\training]
+[2024-10-17 15:33:48,760: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 15:33:48,760: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 15:33:48,770: INFO: common: created directory at: artifacts]
+[2024-10-17 15:33:48,771: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-17 15:33:48,773: INFO: 3615452785: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 15:55:37,087: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-17 15:55:37,101: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 15:55:37,101: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 15:55:37,101: INFO: common: created directory at: artifacts]
+[2024-10-17 15:55:37,106: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-17 15:55:37,107: ERROR: stage_01_data_ingestion: name 'DataIngestion' is not defined]
+Traceback (most recent call last):
+  File "c:/Users/Ann Mary/Desktop/chestmlops/Chest-Cancer-Detection-using-MLOps1/src/ChestCancerClassifier/pipeline/stage_01_data_ingestion.py", line 24, in <module>
+    obj.main()
+  File "c:/Users/Ann Mary/Desktop/chestmlops/Chest-Cancer-Detection-using-MLOps1/src/ChestCancerClassifier/pipeline/stage_01_data_ingestion.py", line 13, in main
+    data_ingestion = DataIngestion(config=data_ingestion_config)
+NameError: name 'DataIngestion' is not defined
+[2024-10-17 20:50:42,661: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 20:50:42,682: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 20:50:42,682: INFO: common: created directory at: artifacts]
+[2024-10-17 20:50:42,682: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-17 20:50:59,595: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 20:50:59,609: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 20:50:59,611: INFO: common: created directory at: artifacts]
+[2024-10-17 20:50:59,615: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-17 20:50:59,617: INFO: 4051216940: Downloading data from https://drive.google.com/file/d/1UhWvZJJVac5jk2BewN5oKeHxjXdNGDSX/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 20:52:14,112: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 20:52:14,117: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 20:52:14,117: INFO: common: created directory at: artifacts]
+[2024-10-17 20:52:14,117: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-17 20:52:14,125: INFO: 4051216940: Downloading data from https://drive.google.com/file/d/1UhWvZJJVac5jk2BewN5oKeHxjXdNGDSX/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 20:52:58,531: INFO: 4051216940: Downloaded data from https://drive.google.com/file/d/1UhWvZJJVac5jk2BewN5oKeHxjXdNGDSX/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 21:01:48,859: INFO: data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-17 21:01:48,859: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 21:01:48,859: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 21:01:48,859: INFO: common: created directory at: artifacts]
+[2024-10-17 21:01:48,859: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-17 21:01:48,859: ERROR: data_ingestion: name 'DataIngestion' is not defined]
+Traceback (most recent call last):
+  File "c:/Users/Ann Mary/Desktop/chestmlops/Chest-Cancer-Detection-using-MLOps1/src/ChestCancerClassifier/components/data_ingestion.py", line 25, in <module>
+    obj.main()
+  File "c:/Users/Ann Mary/Desktop/chestmlops/Chest-Cancer-Detection-using-MLOps1/src/ChestCancerClassifier/components/data_ingestion.py", line 14, in main
+    data_ingestion = DataIngestion(config=data_ingestion_config)
+NameError: name 'DataIngestion' is not defined
+[2024-10-17 21:03:09,752: INFO: data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-17 21:03:09,752: ERROR: data_ingestion: cannot import name 'DataIngestion' from 'ChestCancerClassifier.components.data_ingestion' (c:\users\ann mary\desktop\chestmlops\chest-cancer-detection-using-mlops1\src\ChestCancerClassifier\components\data_ingestion.py)]
+Traceback (most recent call last):
+  File "c:/Users/Ann Mary/Desktop/chestmlops/Chest-Cancer-Detection-using-MLOps1/src/ChestCancerClassifier/components/data_ingestion.py", line 25, in <module>
+    obj.main()
+  File "c:/Users/Ann Mary/Desktop/chestmlops/Chest-Cancer-Detection-using-MLOps1/src/ChestCancerClassifier/components/data_ingestion.py", line 12, in main
+    from ChestCancerClassifier.components.data_ingestion import DataIngestion
+ImportError: cannot import name 'DataIngestion' from 'ChestCancerClassifier.components.data_ingestion' (c:\users\ann mary\desktop\chestmlops\chest-cancer-detection-using-mlops1\src\ChestCancerClassifier\components\data_ingestion.py)
+[2024-10-17 21:27:08,722: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 21:27:08,738: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 21:27:08,745: INFO: common: created directory at: artifacts]
+[2024-10-17 21:27:08,745: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-17 21:27:08,752: INFO: 3067872276: Downloading data from https://drive.google.com/file/d/1UhWvZJJVac5jk2BewN5oKeHxjXdNGDSX/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 21:27:10,553: INFO: 3067872276: Downloaded data from https://drive.google.com/file/d/1UhWvZJJVac5jk2BewN5oKeHxjXdNGDSX/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 21:27:10,917: ERROR: 3067872276: Error occurred during file extraction: File is not a zip file]
+[2024-10-17 21:31:14,034: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 21:31:14,042: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 21:31:14,042: INFO: common: created directory at: artifacts]
+[2024-10-17 21:31:14,042: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-17 21:31:14,042: INFO: 3067872276: Downloading data from https://drive.google.com/file/d/1UhWvZJJVac5jk2BewN5oKeHxjXdNGDSX/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 21:31:15,447: INFO: 3067872276: Downloaded data from https://drive.google.com/file/d/1UhWvZJJVac5jk2BewN5oKeHxjXdNGDSX/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 21:31:15,744: ERROR: 3067872276: Error occurred during file extraction: File is not a zip file]
+[2024-10-17 21:31:22,928: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 21:31:22,935: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 21:31:22,935: INFO: common: created directory at: artifacts]
+[2024-10-17 21:31:22,940: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-17 21:31:22,942: INFO: 3067872276: Downloading data from https://drive.google.com/file/d/1UhWvZJJVac5jk2BewN5oKeHxjXdNGDSX/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 21:31:34,755: INFO: 3067872276: Downloaded data from https://drive.google.com/file/d/1UhWvZJJVac5jk2BewN5oKeHxjXdNGDSX/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 21:31:35,103: ERROR: 3067872276: Error occurred during file extraction: File is not a zip file]
+[2024-10-17 21:33:20,768: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-17 21:33:20,775: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-17 21:33:20,779: INFO: common: created directory at: artifacts]
+[2024-10-17 21:33:20,781: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-17 21:33:20,781: INFO: 4051216940: Downloading data from https://drive.google.com/file/d/1UhWvZJJVac5jk2BewN5oKeHxjXdNGDSX/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-17 21:47:36,106: INFO: 4051216940: Downloaded data from https://drive.google.com/file/d/1UhWvZJJVac5jk2BewN5oKeHxjXdNGDSX/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-18 00:36:14,436: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-18 00:36:14,454: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-18 00:36:14,470: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-18 00:36:14,472: INFO: common: created directory at: artifacts]
+[2024-10-18 00:36:14,473: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-18 00:36:14,474: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1UhWvZJJVac5jk2BewN5oKeHxjXdNGDSX/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-18 00:41:07,332: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1UhWvZJJVac5jk2BewN5oKeHxjXdNGDSX/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-18 00:41:20,554: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-18 00:46:48,653: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-18 00:46:48,673: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-18 00:46:48,679: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-18 00:46:48,679: INFO: common: created directory at: artifacts]
+[2024-10-18 00:46:48,679: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-18 00:46:48,679: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-18 00:46:57,754: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-18 00:46:58,366: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-18 00:51:02,555: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-18 00:51:02,555: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-18 00:51:02,569: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-18 00:51:02,569: INFO: common: created directory at: artifacts]
+[2024-10-18 00:51:02,569: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-18 00:51:02,569: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-18 00:51:11,078: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-18 00:51:11,614: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-18 00:52:47,862: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-10-18 00:52:47,862: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-18 00:52:47,862: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-18 00:52:47,862: INFO: common: created directory at: artifacts]
+[2024-10-18 00:52:47,862: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-18 00:52:47,862: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-18 00:52:55,466: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-18 00:52:56,052: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-10-18 01:24:32,767: INFO: stage_02_prepare_base_model: *******************]
+[2024-10-18 01:24:32,767: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-18 01:24:32,772: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-18 01:24:32,779: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-18 01:24:32,780: INFO: common: created directory at: artifacts]
+[2024-10-18 01:24:32,780: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-10-18 01:24:33,586: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-18 01:24:34,357: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-10-18 14:33:38,351: INFO: stage_03_model_trainer: *******************]
+[2024-10-18 14:33:38,351: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-10-18 14:33:38,361: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-18 14:33:38,369: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-18 14:33:38,377: INFO: common: created directory at: artifacts]
+[2024-10-18 14:33:38,377: INFO: common: created directory at: artifacts\training]
+[2024-10-18 14:33:39,071: ERROR: stage_03_model_trainer: Could not import PIL.Image. The use of `load_img` requires PIL.]
+Traceback (most recent call last):
+  File "c:/Users/Ann Mary/Desktop/chestmlops/Chest-Cancer-Detection-using-MLOps1/src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 36, in <module>
+    obj.main()
+  File "c:/Users/Ann Mary/Desktop/chestmlops/Chest-Cancer-Detection-using-MLOps1/src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 27, in main
+    training.train()
+  File "c:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\components\model_trainer.py", line 75, in train
+    self.model.fit(
+  File "C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\venv\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\venv\lib\site-packages\keras\utils\image_utils.py", line 414, in load_img
+    raise ImportError(
+ImportError: Could not import PIL.Image. The use of `load_img` requires PIL.
+[2024-10-18 14:33:59,178: INFO: stage_03_model_trainer: *******************]
+[2024-10-18 14:33:59,178: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-10-18 14:33:59,178: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-18 14:33:59,178: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-18 14:33:59,178: INFO: common: created directory at: artifacts]
+[2024-10-18 14:33:59,178: INFO: common: created directory at: artifacts\training]
+[2024-10-18 14:33:59,747: ERROR: stage_03_model_trainer: Could not import PIL.Image. The use of `load_img` requires PIL.]
+Traceback (most recent call last):
+  File "src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 36, in <module>
+    obj.main()
+  File "src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 27, in main
+    training.train()
+  File "C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\components\model_trainer.py", line 75, in train
+    self.model.fit(
+  File "c:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\venv\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "c:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\venv\lib\site-packages\keras\utils\image_utils.py", line 414, in load_img
+    raise ImportError(
+ImportError: Could not import PIL.Image. The use of `load_img` requires PIL.
+[2024-10-18 14:35:31,486: INFO: stage_03_model_trainer: *******************]
+[2024-10-18 14:35:31,486: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-10-18 14:35:31,486: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-18 14:35:31,486: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-18 14:35:31,494: INFO: common: created directory at: artifacts]
+[2024-10-18 14:35:31,494: INFO: common: created directory at: artifacts\training]
+[2024-10-18 14:37:44,358: INFO: stage_03_model_trainer: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-10-18 14:44:08,902: INFO: stage_04_model_evaluation: *******************]
+[2024-10-18 14:44:08,902: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-10-18 14:44:08,902: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-18 14:44:08,918: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-18 14:44:08,918: INFO: common: created directory at: artifacts]
+[2024-10-18 14:44:29,353: INFO: common: json file saved at: scores.json]
+[2024-10-18 14:44:29,353: INFO: common: json file saved at: scores.json]
+[2024-10-18 14:44:29,359: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-10-18 14:50:26,884: INFO: stage_03_model_trainer: *******************]
+[2024-10-18 14:50:26,884: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-10-18 14:50:26,884: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-18 14:50:26,884: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-18 14:50:26,884: INFO: common: created directory at: artifacts]
+[2024-10-18 14:50:26,884: INFO: common: created directory at: artifacts\training]
+[2024-10-19 11:47:22,362: INFO: stage_03_model_trainer: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-10-19 11:47:38,931: INFO: stage_04_model_evaluation: *******************]
+[2024-10-19 11:47:38,931: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-10-19 11:47:38,958: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-19 11:47:38,966: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-19 11:47:38,966: INFO: common: created directory at: artifacts]
+[2024-10-19 11:48:00,355: INFO: common: json file saved at: scores.json]
+[2024-10-19 11:48:00,355: INFO: common: json file saved at: scores.json]
+[2024-10-19 11:48:00,364: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-10-19 15:10:57,020: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-19 15:10:57,023: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-19 15:11:00,219: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-19 15:11:00,224: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-19 15:11:00,224: INFO: common: created directory at: artifacts]
+[2024-10-19 15:11:00,224: INFO: common: created directory at: artifacts\training]
+[2024-10-19 15:19:51,215: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-19 15:19:51,220: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-19 15:19:51,224: INFO: common: created directory at: artifacts]
+[2024-10-19 15:19:51,232: INFO: common: created directory at: artifacts\training]
+[2024-10-19 15:20:49,678: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-19 15:20:49,678: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-19 15:20:49,678: INFO: common: created directory at: artifacts]
+[2024-10-19 15:20:49,687: INFO: common: created directory at: artifacts\training]
+[2024-10-19 15:44:06,802: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-19 15:44:06,808: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-19 15:44:06,813: INFO: common: created directory at: artifacts]
+[2024-10-19 15:44:06,813: INFO: common: created directory at: artifacts\training]
+[2024-10-19 15:50:27,637: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-19 15:50:27,643: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-19 15:50:27,645: INFO: common: created directory at: artifacts]
+[2024-10-19 15:50:27,645: INFO: common: created directory at: artifacts\training]
+[2024-10-21 14:47:46,575: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-21 14:47:46,575: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-21 14:47:49,360: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-21 14:47:49,386: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-21 14:47:49,386: INFO: common: created directory at: artifacts]
+[2024-10-21 14:47:49,392: INFO: common: created directory at: artifacts\training]
+[2024-10-21 14:49:45,480: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-21 14:49:45,480: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-21 14:49:45,499: INFO: common: created directory at: artifacts]
+[2024-10-21 14:49:45,501: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-10-21 14:49:45,501: INFO: 4051216940: Downloading data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-21 14:49:58,662: INFO: 4051216940: Downloaded data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-10-21 14:52:53,204: INFO: stage_02_prepare_base_model: *******************]
+[2024-10-21 14:52:53,204: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-10-21 14:52:53,204: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-21 14:52:53,204: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-21 14:52:53,204: INFO: common: created directory at: artifacts]
+[2024-10-21 14:52:53,221: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-10-21 14:52:54,035: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-10-21 14:52:54,972: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-10-21 14:53:03,541: INFO: stage_03_model_trainer: *******************]
+[2024-10-21 14:53:03,541: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-10-21 14:53:03,554: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-21 14:53:03,559: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-21 14:53:03,559: INFO: common: created directory at: artifacts]
+[2024-10-21 14:53:03,562: INFO: common: created directory at: artifacts\training]
+[2024-10-22 12:16:39,666: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-22 12:16:39,666: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-22 12:16:40,795: INFO: stage_03_model_trainer: *******************]
+[2024-10-22 12:16:40,795: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-10-22 12:16:40,795: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-22 12:16:40,826: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-22 12:16:40,826: INFO: common: created directory at: artifacts]
+[2024-10-22 12:16:40,826: INFO: common: created directory at: artifacts\training]
+[2024-10-22 12:22:08,225: INFO: stage_03_model_trainer: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-10-22 12:22:16,440: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-22 12:22:16,440: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-22 12:22:18,594: INFO: stage_04_model_evaluation: *******************]
+[2024-10-22 12:22:18,595: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-10-22 12:22:18,597: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-22 12:22:18,597: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-22 12:22:18,597: INFO: common: created directory at: artifacts]
+[2024-10-22 12:22:39,930: INFO: common: json file saved at: scores.json]
+[2024-10-22 12:22:39,930: INFO: common: json file saved at: scores.json]
+[2024-10-22 12:22:39,930: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-10-22 23:36:48,897: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-22 23:36:48,897: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-22 23:36:49,917: INFO: stage_03_model_trainer: *******************]
+[2024-10-22 23:36:49,917: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-10-22 23:36:49,917: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-22 23:36:49,959: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-22 23:36:49,959: INFO: common: created directory at: artifacts]
+[2024-10-22 23:36:49,959: INFO: common: created directory at: artifacts\training]
+[2024-10-22 23:42:12,215: INFO: stage_03_model_trainer: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-10-22 23:42:19,028: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-22 23:42:19,028: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-22 23:42:21,409: INFO: stage_04_model_evaluation: *******************]
+[2024-10-22 23:42:21,409: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-10-22 23:42:21,409: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-10-22 23:42:21,409: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-10-22 23:42:21,409: INFO: common: created directory at: artifacts]
+[2024-10-22 23:42:43,771: INFO: common: json file saved at: scores.json]
+[2024-10-22 23:42:43,771: INFO: common: json file saved at: scores.json]
+[2024-10-22 23:42:43,771: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-10-23 09:47:35,721: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-23 09:47:35,721: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-23 09:47:36,885: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.16.227.13:8080]
+[2024-10-23 09:47:36,885: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-23 09:47:49,618: INFO: _internal: 127.0.0.1 - - [23/Oct/2024 09:47:49] "GET / HTTP/1.1" 200 -]
+[2024-10-23 09:47:50,282: INFO: _internal: 127.0.0.1 - - [23/Oct/2024 09:47:50] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -]
+[2024-10-23 09:47:54,396: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 67, in predictRoute
+    result = clApp.classifier.predict()
+  File "c:\users\ann mary\desktop\chestmlops\chest-cancer-detection-using-mlops1\src\ChestCancerClassifier\pipeline\prediction.py", line 21, in predict
+    test_image = image.load_img(imagename, target_size = (224,224))
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\utils\image_utils.py", line 423, in load_img
+    img = pil_image.open(io.BytesIO(f.read()))
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\PIL\Image.py", line 3339, in open
+    raise UnidentifiedImageError(msg)
+PIL.UnidentifiedImageError: cannot identify image file <_io.BytesIO object at 0x00000251E689BF40>
+[2024-10-23 09:47:54,407: INFO: _internal: 127.0.0.1 - - [23/Oct/2024 09:47:54] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-10-23 09:48:31,372: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-23 09:48:31,372: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-23 09:48:31,796: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.16.227.13:8080]
+[2024-10-23 09:48:31,796: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-23 09:48:44,181: INFO: _internal: 127.0.0.1 - - [23/Oct/2024 09:48:44] "GET / HTTP/1.1" 200 -]
+[2024-10-23 09:49:30,256: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 68, in predictRoute
+    predicted_class = result['predicted_class']
+TypeError: list indices must be integers or slices, not str
+[2024-10-23 09:49:30,257: INFO: _internal: 127.0.0.1 - - [23/Oct/2024 09:49:30] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-10-23 10:05:25,656: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-10-23 10:05:25,656: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-10-23 10:05:26,611: INFO: _internal: [31m[1mWARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.[0m
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8080
+ * Running on http://172.16.227.13:8080]
+[2024-10-23 10:05:26,614: INFO: _internal: [33mPress CTRL+C to quit[0m]
+[2024-10-23 10:05:40,383: INFO: _internal: 127.0.0.1 - - [23/Oct/2024 10:05:40] "GET / HTTP/1.1" 200 -]
+[2024-10-23 10:05:52,315: ERROR: app: Exception on /predict [POST]]
+Traceback (most recent call last):
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\flask\app.py", line 2190, in wsgi_app
+    response = self.full_dispatch_request()
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\flask\app.py", line 1486, in full_dispatch_request
+    rv = self.handle_user_exception(e)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\flask_cors\extension.py", line 194, in wrapped_function
+    return cors_after_request(app.make_response(f(*args, **kwargs)))
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\flask\app.py", line 1484, in full_dispatch_request
+    rv = self.dispatch_request()
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\flask\app.py", line 1469, in dispatch_request
+    return self.ensure_sync(self.view_functions[rule.endpoint])(**view_args)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\flask_cors\decorator.py", line 130, in wrapped_function
+    resp = make_response(f(*args, **kwargs))
+  File "app.py", line 71, in predictRoute
+    predicted_class = result['predicted_class']
+TypeError: list indices must be integers or slices, not str
+[2024-10-23 10:05:52,374: INFO: _internal: 127.0.0.1 - - [23/Oct/2024 10:05:52] "[35m[1mPOST /predict HTTP/1.1[0m" 500 -]
+[2024-12-10 21:06:33,903: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-10 21:06:33,903: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-12-10 21:06:33,903: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-12-10 21:06:33,903: INFO: common: created directory at: artifacts]
+[2024-12-10 21:06:33,903: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-10 21:06:33,914: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-10 21:06:57,219: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-10 21:06:57,920: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-10 21:07:09,846: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-12-10 21:07:09,846: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-12-10 21:07:10,362: INFO: stage_02_prepare_base_model: *******************]
+[2024-12-10 21:07:10,362: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-12-10 21:07:10,370: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-12-10 21:07:10,370: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-12-10 21:07:10,375: INFO: common: created directory at: artifacts]
+[2024-12-10 21:07:10,377: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-12-10 21:07:11,251: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-10 21:07:11,648: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-12-10 21:07:16,368: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-12-10 21:07:16,368: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-12-10 21:07:16,857: INFO: stage_03_model_trainer: *******************]
+[2024-12-10 21:07:16,857: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-12-10 21:07:16,873: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-12-10 21:07:16,873: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-12-10 21:07:16,873: INFO: common: created directory at: artifacts]
+[2024-12-10 21:07:16,877: INFO: common: created directory at: artifacts\training]
+[2024-12-10 21:12:34,722: INFO: stage_03_model_trainer: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-12-10 21:12:40,447: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-12-10 21:12:40,447: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-12-10 21:12:42,711: INFO: stage_04_model_evaluation: *******************]
+[2024-12-10 21:12:42,711: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-12-10 21:12:42,711: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-12-10 21:12:42,711: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-12-10 21:12:42,711: INFO: common: created directory at: artifacts]
+[2024-12-10 21:13:02,886: INFO: common: json file saved at: scores.json]
+[2024-12-10 21:13:02,886: INFO: common: json file saved at: scores.json]
+[2024-12-10 21:13:02,886: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-12-11 00:18:22,713: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2024-12-11 00:18:22,713: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-12-11 00:18:22,735: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-12-11 00:18:22,735: INFO: common: created directory at: artifacts]
+[2024-12-11 00:18:22,740: INFO: common: created directory at: artifacts/data_ingestion]
+[2024-12-11 00:18:22,740: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-11 00:21:34,231: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2024-12-11 00:21:34,656: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2024-12-11 00:21:52,202: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-12-11 00:21:52,202: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-12-11 00:21:53,590: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2024-12-11 00:21:53,590: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-12-11 00:21:53,606: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-12-11 00:21:53,606: INFO: common: created directory at: artifacts]
+[2024-12-11 00:21:53,608: INFO: common: created directory at: artifacts/prepare_base_model]
+[2024-12-11 00:21:54,048: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2024-12-11 00:21:54,286: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2024-12-11 00:21:59,237: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-12-11 00:21:59,237: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-12-11 00:22:00,155: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-12-11 00:22:00,170: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-12-11 00:22:00,170: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-12-11 00:22:00,170: INFO: common: created directory at: artifacts]
+[2024-12-11 00:22:00,170: INFO: common: created directory at: artifacts\training]
+[2024-12-11 00:28:23,815: INFO: stage_03_model_trainer: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2024-12-11 00:28:33,556: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-12-11 00:28:33,556: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-12-11 00:28:36,875: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2024-12-11 00:28:36,875: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-12-11 00:28:36,875: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-12-11 00:28:36,875: INFO: common: created directory at: artifacts]
+[2024-12-11 00:29:05,121: INFO: common: json file saved at: scores.json]
+[2024-12-11 00:29:05,121: INFO: common: json file saved at: scores.json]
+[2024-12-11 00:29:05,121: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2024-12-12 15:46:59,082: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-12-12 15:46:59,089: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-12-12 15:47:00,334: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-12-12 15:47:00,355: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-12-12 15:47:00,371: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-12-12 15:47:00,371: INFO: common: created directory at: artifacts]
+[2024-12-12 15:47:00,371: INFO: common: created directory at: artifacts\training]
+[2024-12-12 15:54:06,243: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2024-12-12 15:54:06,243: INFO: utils: NumExpr defaulting to 8 threads.]
+[2024-12-12 15:54:07,524: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2024-12-12 15:54:07,524: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2024-12-12 15:54:07,524: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2024-12-12 15:54:07,524: INFO: common: created directory at: artifacts]
+[2024-12-12 15:54:07,524: INFO: common: created directory at: artifacts\training]
+[2024-12-12 16:00:06,709: INFO: stage_03_model_trainer: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-01-02 21:56:08,984: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-02 21:56:09,000: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-02 21:56:09,008: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-02 21:56:09,010: INFO: common: created directory at: artifacts]
+[2025-01-02 21:56:09,011: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-02 21:56:09,012: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view into file artifacts/data_ingestion/data.zip]
+[2025-01-02 21:56:20,478: ERROR: stage_01_data_ingestion: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /file/d/1rf6azR-SiwxFGdee5N3SIuMB-Rz3kCph/view?usp=sharing1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001CA6138F5B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))]
+Traceback (most recent call last):
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\connection.py", line 174, in _new_conn
+    conn = connection.create_connection(
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\util\connection.py", line 72, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\socket.py", line 918, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\connectionpool.py", line 715, in urlopen
+    httplib_response = self._make_request(
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\connectionpool.py", line 404, in _make_request
+    self._validate_conn(conn)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\connectionpool.py", line 1060, in _validate_conn
+    conn.connect()
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\connection.py", line 363, in connect
+    self.sock = conn = self._new_conn()
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\connection.py", line 186, in _new_conn
+    raise NewConnectionError(
+urllib3.exceptions.NewConnectionError: <urllib3.connection.HTTPSConnection object at 0x000001CA6138F5B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\requests\adapters.py", line 589, in send
+    resp = conn.urlopen(
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\connectionpool.py", line 801, in urlopen
+    retries = retries.increment(
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\urllib3\util\retry.py", line 594, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /file/d/1rf6azR-SiwxFGdee5N3SIuMB-Rz3kCph/view?usp=sharing1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001CA6138F5B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "src/ChestCancerClassifier/pipeline/stage_01_data_ingestion.py", line 28, in <module>
+    obj.main()
+  File "src/ChestCancerClassifier/pipeline/stage_01_data_ingestion.py", line 21, in main
+    data_ingestion.download_file()
+  File "c:\users\ann mary\desktop\chestmlops\chest-cancer-detection-using-mlops1\src\ChestCancerClassifier\components\data_ingestion.py", line 33, in download_file
+    raise e
+  File "c:\users\ann mary\desktop\chestmlops\chest-cancer-detection-using-mlops1\src\ChestCancerClassifier\components\data_ingestion.py", line 28, in download_file
+    gdown.download(prefix+file_id,zip_download_dir)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\gdown\download.py", line 202, in download
+    res = sess.get(url, stream=True, verify=verify)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\requests\sessions.py", line 602, in get
+    return self.request("GET", url, **kwargs)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\requests\sessions.py", line 589, in request
+    resp = self.send(prep, **send_kwargs)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\requests\sessions.py", line 703, in send
+    r = adapter.send(request, **kwargs)
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\requests\adapters.py", line 622, in send
+    raise ConnectionError(e, request=request)
+requests.exceptions.ConnectionError: HTTPSConnectionPool(host='drive.google.com', port=443): Max retries exceeded with url: /file/d/1rf6azR-SiwxFGdee5N3SIuMB-Rz3kCph/view?usp=sharing1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt (Caused by NewConnectionError('<urllib3.connection.HTTPSConnection object at 0x000001CA6138F5B0>: Failed to establish a new connection: [Errno 11001] getaddrinfo failed'))
+[2025-01-02 21:57:10,225: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-02 21:57:10,227: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-02 21:57:10,229: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-02 21:57:10,229: INFO: common: created directory at: artifacts]
+[2025-01-02 21:57:10,231: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-02 21:57:10,231: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view into file artifacts/data_ingestion/data.zip]
+[2025-01-02 21:57:13,845: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view into file artifacts/data_ingestion/data.zip]
+[2025-01-02 21:57:13,848: ERROR: stage_01_data_ingestion: File is not a zip file]
+Traceback (most recent call last):
+  File "src/ChestCancerClassifier/pipeline/stage_01_data_ingestion.py", line 28, in <module>
+    obj.main()
+  File "src/ChestCancerClassifier/pipeline/stage_01_data_ingestion.py", line 22, in main
+    data_ingestion.extract_zip_file()
+  File "c:\users\ann mary\desktop\chestmlops\chest-cancer-detection-using-mlops1\src\ChestCancerClassifier\components\data_ingestion.py", line 44, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\zipfile.py", line 1271, in __init__
+    self._RealGetContents()
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\zipfile.py", line 1338, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-01-03 11:34:57,779: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-03 11:34:57,783: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-03 11:34:57,787: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-03 11:34:57,787: INFO: common: created directory at: artifacts]
+[2025-01-03 11:34:57,788: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-03 11:34:57,789: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view into file artifacts/data_ingestion/data.zip]
+[2025-01-03 11:34:58,437: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view into file artifacts/data_ingestion/data.zip]
+[2025-01-03 11:34:58,439: ERROR: stage_01_data_ingestion: File is not a zip file]
+Traceback (most recent call last):
+  File "src/ChestCancerClassifier/pipeline/stage_01_data_ingestion.py", line 28, in <module>
+    obj.main()
+  File "src/ChestCancerClassifier/pipeline/stage_01_data_ingestion.py", line 22, in main
+    data_ingestion.extract_zip_file()
+  File "c:\users\ann mary\desktop\chestmlops\chest-cancer-detection-using-mlops1\src\ChestCancerClassifier\components\data_ingestion.py", line 44, in extract_zip_file
+    with zipfile.ZipFile(self.config.local_data_file, 'r') as zip_ref:
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\zipfile.py", line 1271, in __init__
+    self._RealGetContents()
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\zipfile.py", line 1338, in _RealGetContents
+    raise BadZipFile("File is not a zip file")
+zipfile.BadZipFile: File is not a zip file
+[2025-01-03 11:42:56,688: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-03 11:42:56,691: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-03 11:42:56,697: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-03 11:42:56,698: INFO: common: created directory at: artifacts]
+[2025-01-03 11:42:56,699: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-03 11:42:56,700: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view into file artifacts/data_ingestion/data.zip]
+[2025-01-03 11:43:08,448: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view into file artifacts/data_ingestion/data.zip]
+[2025-01-03 11:43:09,320: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-03 11:43:30,744: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-03 11:43:30,744: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-03 11:43:32,325: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2025-01-03 11:43:32,329: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-03 11:43:32,332: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-03 11:43:32,333: INFO: common: created directory at: artifacts]
+[2025-01-03 11:43:32,335: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-01-03 11:43:41,726: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-03 11:43:41,726: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-03 11:43:42,492: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-03 11:43:42,495: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-03 11:43:42,497: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-03 11:43:42,497: INFO: common: created directory at: artifacts]
+[2025-01-03 11:43:42,499: INFO: common: created directory at: artifacts\training]
+[2025-01-03 11:43:42,504: ERROR: stage_03_model_trainer: No file or directory found at artifacts\prepare_base_model\base_model_updated.h5]
+Traceback (most recent call last):
+  File "src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 29, in <module>
+    obj.main()
+  File "src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 21, in main
+    training.get_base_model()
+  File "c:\users\ann mary\desktop\chestmlops\chest-cancer-detection-using-mlops1\src\ChestCancerClassifier\components\model_trainer.py", line 23, in get_base_model
+    self.model = tf.keras.models.load_model(
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\saving\saving_api.py", line 212, in load_model
+    return legacy_sm_saving_lib.load_model(
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\saving\legacy\save.py", line 230, in load_model
+    raise IOError(
+OSError: No file or directory found at artifacts\prepare_base_model\base_model_updated.h5
+[2025-01-03 11:44:24,774: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-03 11:44:24,778: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-03 11:44:24,785: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-03 11:44:24,803: INFO: common: created directory at: artifacts]
+[2025-01-03 11:44:24,804: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-03 11:44:24,804: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view into file artifacts/data_ingestion/data.zip]
+[2025-01-03 11:44:37,049: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1syDDFBYKcKVCutlEcQ9zMuHxd0wOgsQt/view into file artifacts/data_ingestion/data.zip]
+[2025-01-03 11:44:37,769: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-03 11:44:56,980: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-03 11:44:56,981: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-03 11:44:58,190: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2025-01-03 11:44:58,193: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-03 11:44:58,195: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-03 11:44:58,196: INFO: common: created directory at: artifacts]
+[2025-01-03 11:44:58,197: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-01-03 11:44:59,139: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-01-03 11:44:59,566: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-01-03 11:45:09,389: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-03 11:45:09,390: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-03 11:45:10,795: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-03 11:45:10,798: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-03 11:45:10,801: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-03 11:45:10,803: INFO: common: created directory at: artifacts]
+[2025-01-03 11:45:10,805: INFO: common: created directory at: artifacts\training]
+[2025-01-03 11:47:48,494: ERROR: stage_03_model_trainer: Graph execution error:
+
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\fall and nonfall\\fall\\fall029 (2).jpg'
+Traceback (most recent call last):
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\tensorflow\python\ops\script_ops.py", line 267, in __call__
+    ret = func(*args)
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\tensorflow\python\autograph\impl\api.py", line 642, in wrapper
+    return func(*args, **kwargs)
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\tensorflow\python\data\ops\from_generator_op.py", line 198, in generator_py_func
+    values = next(generator_state.get_iterator(iterator_id))
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\engine\data_adapter.py", line 902, in wrapped_generator
+    for data in generator_fn():
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\engine\data_adapter.py", line 1049, in generator_fn
+    yield x[i]
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\preprocessing\image.py", line 116, in __getitem__
+    return self._get_batches_of_transformed_samples(index_array)
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\preprocessing\image.py", line 370, in _get_batches_of_transformed_samples
+    img = image_utils.load_img(
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\utils\image_utils.py", line 422, in load_img
+    with open(path, "rb") as f:
+
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\fall and nonfall\\fall\\fall029 (2).jpg'
+
+
+	 [[{{node PyFunc}}]]
+	 [[IteratorGetNext]] [Op:__inference_train_function_881]]
+Traceback (most recent call last):
+  File "src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 29, in <module>
+    obj.main()
+  File "src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 23, in main
+    training.train()
+  File "c:\users\ann mary\desktop\chestmlops\chest-cancer-detection-using-mlops1\src\ChestCancerClassifier\components\model_trainer.py", line 81, in train
+    self.model.fit(
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\tensorflow\python\eager\execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\fall and nonfall\\fall\\fall029 (2).jpg'
+Traceback (most recent call last):
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\tensorflow\python\ops\script_ops.py", line 267, in __call__
+    ret = func(*args)
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\tensorflow\python\autograph\impl\api.py", line 642, in wrapper
+    return func(*args, **kwargs)
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\tensorflow\python\data\ops\from_generator_op.py", line 198, in generator_py_func
+    values = next(generator_state.get_iterator(iterator_id))
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\engine\data_adapter.py", line 902, in wrapped_generator
+    for data in generator_fn():
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\engine\data_adapter.py", line 1049, in generator_fn
+    yield x[i]
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\preprocessing\image.py", line 116, in __getitem__
+    return self._get_batches_of_transformed_samples(index_array)
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\preprocessing\image.py", line 370, in _get_batches_of_transformed_samples
+    img = image_utils.load_img(
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\utils\image_utils.py", line 422, in load_img
+    with open(path, "rb") as f:
+
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\fall and nonfall\\fall\\fall029 (2).jpg'
+
+
+	 [[{{node PyFunc}}]]
+	 [[IteratorGetNext]] [Op:__inference_train_function_881]
+[2025-01-03 11:49:50,410: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-03 11:49:50,411: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-03 11:49:51,915: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-03 11:49:51,935: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-03 11:49:51,945: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-03 11:49:51,947: INFO: common: created directory at: artifacts]
+[2025-01-03 11:49:51,948: INFO: common: created directory at: artifacts\training]
+[2025-01-03 11:50:51,029: ERROR: stage_03_model_trainer: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\fall and nonfall\\fall\\fall001 (2).jpg']
+Traceback (most recent call last):
+  File "src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 29, in <module>
+    obj.main()
+  File "src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 23, in main
+    training.train()
+  File "c:\users\ann mary\desktop\chestmlops\chest-cancer-detection-using-mlops1\src\ChestCancerClassifier\components\model_trainer.py", line 81, in train
+    self.model.fit(
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\utils\image_utils.py", line 422, in load_img
+    with open(path, "rb") as f:
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\fall and nonfall\\fall\\fall001 (2).jpg'
+[2025-01-03 11:52:42,498: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-03 11:52:42,498: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-03 11:52:43,097: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-03 11:52:43,099: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-03 11:52:43,101: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-03 11:52:43,102: INFO: common: created directory at: artifacts]
+[2025-01-03 11:52:43,102: INFO: common: created directory at: artifacts\training]
+[2025-01-03 11:53:53,004: ERROR: stage_03_model_trainer: Graph execution error:
+
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\fall and nonfall\\non fall\\not fallen098.jpg'
+Traceback (most recent call last):
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\tensorflow\python\ops\script_ops.py", line 267, in __call__
+    ret = func(*args)
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\tensorflow\python\autograph\impl\api.py", line 642, in wrapper
+    return func(*args, **kwargs)
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\tensorflow\python\data\ops\from_generator_op.py", line 198, in generator_py_func
+    values = next(generator_state.get_iterator(iterator_id))
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\engine\data_adapter.py", line 902, in wrapped_generator
+    for data in generator_fn():
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\engine\data_adapter.py", line 1049, in generator_fn
+    yield x[i]
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\preprocessing\image.py", line 116, in __getitem__
+    return self._get_batches_of_transformed_samples(index_array)
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\preprocessing\image.py", line 370, in _get_batches_of_transformed_samples
+    img = image_utils.load_img(
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\utils\image_utils.py", line 422, in load_img
+    with open(path, "rb") as f:
+
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\fall and nonfall\\non fall\\not fallen098.jpg'
+
+
+	 [[{{node PyFunc}}]]
+	 [[IteratorGetNext]] [Op:__inference_train_function_881]]
+Traceback (most recent call last):
+  File "src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 29, in <module>
+    obj.main()
+  File "src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py", line 23, in main
+    training.train()
+  File "c:\users\ann mary\desktop\chestmlops\chest-cancer-detection-using-mlops1\src\ChestCancerClassifier\components\model_trainer.py", line 81, in train
+    self.model.fit(
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\utils\traceback_utils.py", line 70, in error_handler
+    raise e.with_traceback(filtered_tb) from None
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\tensorflow\python\eager\execute.py", line 52, in quick_execute
+    tensors = pywrap_tfe.TFE_Py_Execute(ctx._handle, device_name, op_name,
+tensorflow.python.framework.errors_impl.UnknownError: Graph execution error:
+
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\fall and nonfall\\non fall\\not fallen098.jpg'
+Traceback (most recent call last):
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\tensorflow\python\ops\script_ops.py", line 267, in __call__
+    ret = func(*args)
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\tensorflow\python\autograph\impl\api.py", line 642, in wrapper
+    return func(*args, **kwargs)
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\tensorflow\python\data\ops\from_generator_op.py", line 198, in generator_py_func
+    values = next(generator_state.get_iterator(iterator_id))
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\engine\data_adapter.py", line 902, in wrapped_generator
+    for data in generator_fn():
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\engine\data_adapter.py", line 1049, in generator_fn
+    yield x[i]
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\preprocessing\image.py", line 116, in __getitem__
+    return self._get_batches_of_transformed_samples(index_array)
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\preprocessing\image.py", line 370, in _get_batches_of_transformed_samples
+    img = image_utils.load_img(
+
+  File "C:\Users\Ann Mary\miniconda3\envs\mxry\lib\site-packages\keras\utils\image_utils.py", line 422, in load_img
+    with open(path, "rb") as f:
+
+FileNotFoundError: [Errno 2] No such file or directory: 'artifacts\\data_ingestion\\fall and nonfall\\non fall\\not fallen098.jpg'
+
+
+	 [[{{node PyFunc}}]]
+	 [[IteratorGetNext]] [Op:__inference_train_function_881]
+[2025-01-03 11:57:27,203: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-03 11:57:27,223: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-03 11:57:27,225: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-03 11:57:27,225: INFO: common: created directory at: artifacts]
+[2025-01-03 11:57:27,226: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-03 11:57:27,226: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1rf6azR-SiwxFGdee5N3SIuMB-Rz3kCph/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2025-01-03 11:57:40,869: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1rf6azR-SiwxFGdee5N3SIuMB-Rz3kCph/view?usp=drive_link into file artifacts/data_ingestion/data.zip]
+[2025-01-03 11:57:44,054: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
+[2025-01-03 11:58:45,258: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-03 11:58:45,258: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-03 11:58:45,821: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model started <<<<<<]
+[2025-01-03 11:58:45,824: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-03 11:58:45,826: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-03 11:58:45,829: INFO: common: created directory at: artifacts]
+[2025-01-03 11:58:45,830: INFO: common: created directory at: artifacts/prepare_base_model]
+[2025-01-03 11:58:46,381: WARNING: saving_utils: Compiled the loaded model, but the compiled metrics have yet to be built. `model.compile_metrics` will be empty until you train or evaluate the model.]
+[2025-01-03 11:58:46,682: INFO: stage_02_prepare_base_model: >>>>>> stage Prepare base model completed <<<<<<
+
+x==========x]
+[2025-01-03 11:58:53,181: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-03 11:58:53,181: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-03 11:58:53,700: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-03 11:58:53,701: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-03 11:58:53,703: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-03 11:58:53,703: INFO: common: created directory at: artifacts]
+[2025-01-03 11:58:53,704: INFO: common: created directory at: artifacts\training]
+[2025-01-03 12:34:23,792: INFO: stage_03_model_trainer: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-01-03 12:34:33,140: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-03 12:34:33,140: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-03 12:34:36,089: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-01-03 12:34:36,106: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-03 12:34:36,122: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-03 12:34:36,123: INFO: common: created directory at: artifacts]
+[2025-01-03 12:36:59,914: INFO: common: json file saved at: scores.json]
+[2025-01-03 12:36:59,916: INFO: common: json file saved at: scores.json]
+[2025-01-03 12:36:59,916: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]
+[2025-01-06 11:56:38,016: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-06 11:56:38,022: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-06 11:56:40,649: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-01-06 11:56:40,653: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-06 11:56:40,659: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-06 11:56:40,661: INFO: common: created directory at: artifacts]
+[2025-01-06 12:03:18,617: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-06 12:03:18,617: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-06 12:03:19,745: INFO: stage_03_model_trainer: >>>>>> stage Training started <<<<<<]
+[2025-01-06 12:03:19,747: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-06 12:03:19,749: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-06 12:03:19,751: INFO: common: created directory at: artifacts]
+[2025-01-06 12:03:19,753: INFO: common: created directory at: artifacts\training]
+[2025-01-08 20:46:26,901: INFO: stage_03_model_trainer: >>>>>> stage Training completed <<<<<<
+
+x==========x]
+[2025-01-08 20:46:44,518: INFO: utils: Note: NumExpr detected 12 cores but "NUMEXPR_MAX_THREADS" not set, so enforcing safe limit of 8.]
+[2025-01-08 20:46:44,519: INFO: utils: NumExpr defaulting to 8 threads.]
+[2025-01-08 20:46:49,339: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage started <<<<<<]
+[2025-01-08 20:46:49,352: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-08 20:46:49,362: INFO: common: yaml file: C:\Users\Ann Mary\Desktop\chestmlops\Chest-Cancer-Detection-using-MLOps1\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-08 20:46:49,365: INFO: common: created directory at: artifacts]
+[2025-01-08 20:49:26,010: INFO: common: json file saved at: scores.json]
+[2025-01-08 20:49:26,012: INFO: common: json file saved at: scores.json]
+[2025-01-08 20:49:26,012: INFO: stage_04_model_evaluation: >>>>>> stage Evaluation stage completed <<<<<<
+
+x==========x]

@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/> 
+    <title>Fall Detection</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 20px;
+      }
+      .preview {
+        max-width: 300px;
+        max-height: 300px;
+        margin-bottom: 20px;
+      }
+    </style>
+</head>
+<body>
+    <h1>Fall Detection Prediction</h1>
+    <input type="file" id="imageInput" accept="image/*" />
+    <br><br>
+    <img id="preview" class="preview" src="#" alt="Image Preview" style="display:none;"/>
+
+    <div id="predictionResult" style="display:none;">
+        <h2>Prediction Result</h2>
+        <p id="predictedLabel"></p>
+        <p id="confidence"></p>
+        <p>Is this prediction correct?</p>
+        <button id="feedbackYes">Yes</button>
+        <button id="feedbackNo">No</button>
+    </div>
+
+    <div id="feedbackForm" style="display:none;">
+        <h3>Provide Correct Label</h3>
+        <select id="correctLabel">
+            <option value="0">No Fall</option>
+            <option value="1">Fall</option>
+        </select>
+        <button id="submitFeedback">Submit Feedback</button>
+    </div>
+
+    <script>
+        let selectedImageBase64 = "";
+        let predictedClass = null;
+
+        const imageInput = document.getElementById('imageInput');
+        const preview = document.getElementById('preview');
+        const predictionResult = document.getElementById('predictionResult');
+        const predictedLabelEl = document.getElementById('predictedLabel');
+        const confidenceEl = document.getElementById('confidence');
+        const feedbackYes = document.getElementById('feedbackYes');
+        const feedbackNo = document.getElementById('feedbackNo');
+        const feedbackForm = document.getElementById('feedbackForm');
+        const correctLabelInput = document.getElementById('correctLabel');
+        const submitFeedback = document.getElementById('submitFeedback');
+
+        // Preview the uploaded image
+        imageInput.addEventListener('change', function(event) {
+            const file = event.target.files[0];
+            if (file) {
+                const reader = new FileReader();
+                reader.onload = function(e) {
+                    preview.src = e.target.result;
+                    preview.style.display = 'block';
+                    // Convert image to base64 for prediction request
+                    let base64String = e.target.result.split(',')[1];
+                    selectedImageBase64 = base64String;
+                    requestPrediction(base64String);
+                }
+                reader.readAsDataURL(file);
+            }
+        });
+
+        function requestPrediction(imageBase64) {
+            fetch('/predict', {
+                method: 'POST',
+                headers: {'Content-Type': 'application/json'},
+                body: JSON.stringify({image: imageBase64})
+            })
+            .then(response => response.json())
+            .then(data => {
+                predictionResult.style.display = 'block';
+                predictedClass = data.result.predicted_class;
+                predictedLabelEl.textContent = "Predicted Label: " + data.result.predicted_label;
+                confidenceEl.textContent = "Confidence: " + (data.result.confidence * 100).toFixed(2) + "%";
+            })
+            .catch(err => console.log(err));
+        }
+
+        feedbackYes.addEventListener('click', function() {
+            alert("Thank you for your confirmation!");
+            // No feedback needed, just acknowledgement
+        });
+
+        feedbackNo.addEventListener('click', function() {
+            feedbackForm.style.display = 'block';
+        });
+
+        submitFeedback.addEventListener('click', function() {
+            const correctLabelValue = correctLabelInput.value;
+            // Send feedback
+            // We send the original base64 image as file_path for reference in backend
+            // In a real scenario, you may need to store the input filename or handle differently
+            let formData = new FormData();
+            formData.append('file_path', selectedImageBase64);
+            formData.append('predicted_class', predictedClass);
+            formData.append('feedback', 'no');
+            formData.append('correct_label', correctLabelValue);
+
+            fetch('/feedback', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                alert(data.message);
+                // Hide feedback form again
+                feedbackForm.style.display = 'none';
+            })
+            .catch(err => console.log(err));
+        });
+    </script>
+</body>
+</html>
