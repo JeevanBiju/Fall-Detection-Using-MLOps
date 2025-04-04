@@ -1,4 +1,4 @@
-# Chest-Cancer-Detection-using-MLOps
+# Fall-Detection-using-MLOps
 
 ##Workflows
 
