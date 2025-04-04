@@ -1209,3 +1209,13 @@ x==========x]
 [2025-01-26 13:17:05,222: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
 
 x==========x]
+[2025-01-26 13:19:11,030: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage started <<<<<<]
+[2025-01-26 13:19:11,030: INFO: common: yaml file: E:\works\chest_cancer-mlops\Chest-Cancer-Detection-using-MLOps\src\ChestCancerClassifier\config\config.yaml loaded successfully]
+[2025-01-26 13:19:11,030: INFO: common: yaml file: E:\works\chest_cancer-mlops\Chest-Cancer-Detection-using-MLOps\src\ChestCancerClassifier\params.yaml loaded successfully]
+[2025-01-26 13:19:11,030: INFO: common: created directory at: artifacts]
+[2025-01-26 13:19:11,042: INFO: common: created directory at: artifacts/data_ingestion]
+[2025-01-26 13:19:11,044: INFO: data_ingestion: Downloading data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-01-26 13:19:24,485: INFO: data_ingestion: Downloaded data from https://drive.google.com/file/d/1z0mreUtRmR-P-magILsDR3T7M6IkGXtY/view?usp=sharing into file artifacts/data_ingestion/data.zip]
+[2025-01-26 13:19:25,044: INFO: stage_01_data_ingestion: >>>>>> stage Data Ingestion stage completed <<<<<<
+
+x==========x]
