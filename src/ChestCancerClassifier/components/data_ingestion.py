@@ -12,9 +12,9 @@ class DataIngestion:
         self.config = config
 
     def download_file(self)-> str:
-        '''
+        """
         Fetch data from the url
-        '''
+        """
 
         try: 
             dataset_url = self.config.source_URL
@@ -31,7 +31,6 @@ class DataIngestion:
 
         except Exception as e:
             raise e
-        
     
     def extract_zip_file(self):
         """

@@ -5,10 +5,13 @@ from zipfile import ZipFile
 from pathlib import Path
 import urllib.request as request
 import time
+import numpy as np
+from sklearn.utils import class_weight
+from tensorflow.keras.callbacks import EarlyStopping, ReduceLROnPlateau
 
 # Add the `src` directory to the Python path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
-print("Python Path:", sys.path)  # Print Python's import path for debugging
+print("✅ Python Path:", sys.path)
 
 # Ensure the required modules are imported correctly
 from box.exceptions import BoxValueError
@@ -68,6 +71,20 @@ class Training:
             **dataflow_kwargs
         )
 
+        # Logging class distribution
+        class_indices = self.train_generator.class_indices
+        print(f"\n🔍 Class indices: {class_indices}")
+
+        print(f"📊 Class distribution in training set:")
+        for class_label, idx in class_indices.items():
+            count = np.sum(self.train_generator.classes == idx)
+            print(f"{class_label}: {count}")
+
+        print(f"\n📊 Class distribution in validation set:")
+        for class_label, idx in class_indices.items():
+            count = np.sum(self.valid_generator.classes == idx)
+            print(f"{class_label}: {count}")
+
     @staticmethod
     def save_model(path: Path, model: tf.keras.Model):
         """Saves the model to the specified path"""
@@ -78,12 +95,29 @@ class Training:
         self.steps_per_epoch = self.train_generator.samples // self.train_generator.batch_size
         self.validation_steps = self.valid_generator.samples // self.valid_generator.batch_size
 
+        # Compute class weights
+        class_weights = class_weight.compute_class_weight(
+            class_weight='balanced',
+            classes=np.unique(self.train_generator.classes),
+            y=self.train_generator.classes
+        )
+        class_weights_dict = dict(enumerate(class_weights))
+
+        # Callbacks
+        callbacks = [
+            EarlyStopping(monitor='val_loss', patience=5, restore_best_weights=True),
+            ReduceLROnPlateau(monitor='val_loss', factor=0.2, patience=3)
+        ]
+
+        # Training the model
         self.model.fit(
             self.train_generator,
             epochs=self.config.params_epochs,
             steps_per_epoch=self.steps_per_epoch,
             validation_steps=self.validation_steps,
-            validation_data=self.valid_generator
+            validation_data=self.valid_generator,
+            class_weight=class_weights_dict,
+            callbacks=callbacks
         )
 
         self.save_model(
@@ -95,13 +129,12 @@ class Training:
 if __name__ == "__main__":
     # Example usage (assuming config is properly passed)
     try:
-        # Assume `config` is created from the ConfigurationManager in the pipeline
         config = TrainingConfig(
             root_dir="artifacts",
             trained_model_path=Path("artifacts/model.h5"),
             updated_base_model_path=Path("artifacts/base_model.h5"),
             training_data=Path("data"),
-            params_epochs=10,
+            params_epochs=20,  # You can try increasing this
             params_batch_size=32,
             params_is_augmentation=True,
             params_image_size=[224, 224, 3]

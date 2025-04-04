@@ -1,6 +1,12 @@
 import sys
 import os
 
+from pathlib import Path
+
+# Force correct project root path (3 levels up)
+CURRENT_DIR = Path(__file__).resolve().parents[3]
+SRC_PATH = CURRENT_DIR / "src"
+sys.path.insert(0, str(SRC_PATH))
 # Add the `src` directory to the Python path
 sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../../')))
 

@@ -1,8 +1,13 @@
 import sys
 import os
 
-# Add the src folder to sys.path
-sys.path.append(os.path.join(os.path.dirname(__file__), "../../"))
+from pathlib import Path
+
+# Force correct project root path (3 levels up)
+CURRENT_DIR = Path(__file__).resolve().parents[3]
+SRC_PATH = CURRENT_DIR / "src"
+sys.path.insert(0, str(SRC_PATH))  #  Add correct src path only
+
 
 from ChestCancerClassifier.config.configuration import ConfigurationManager
 from ChestCancerClassifier.components.data_ingestion import DataIngestion

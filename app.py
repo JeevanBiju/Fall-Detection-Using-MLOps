@@ -21,7 +21,7 @@ os.makedirs("Incorrect_Images", exist_ok=True)
 model = tf.keras.models.load_model('artifacts/training/model.h5')  # Replace with your model path
 
 # Define class labels (modify as per your model's classes)
-CLASS_LABELS = {0: 'No Fall', 1: 'Fall'}
+CLASS_LABELS = {0: 'Female', 1: 'Male'}
 
 def decodeImage(imgstring, fileName):
     """Decode a base64 image and save it to a file."""
@@ -166,7 +166,7 @@ def trainRoute():
     batch_size = 4
 
     model.compile(optimizer=tf.keras.optimizers.Adam(learning_rate=learning_rate),
-                  loss='categorical_crossentropy',
+                  loss='binary_crossentropy',
                   metrics=['accuracy'])
 
     # Retrain the model on the incorrect samples

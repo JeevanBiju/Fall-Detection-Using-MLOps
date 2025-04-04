@@ -5,7 +5,7 @@ stages:
       - src/ChestCancerClassifier/pipeline/stage_01_data_ingestion.py
       - config/config.yaml
     outs:
-      - artifacts/data_ingestion/fall and nonfall
+      - artifacts/data_ingestion/Augmented images
 
   prepare_base_model:
     cmd: python src/ChestCancerClassifier/pipeline/stage_02_prepare_base_model.py
@@ -26,8 +26,9 @@ stages:
     deps:
       - src/ChestCancerClassifier/pipeline/stage_03_model_trainer.py
       - config/config.yaml
-      - artifacts/data_ingestion/fall and nonfall
-      - artifacts/prepare_base_model
+      - artifacts/data_ingestion/Augmented images
+      - artifacts/prepare_base_model/base_model_updated.h5  # Ensure the correct model path here
+      - retrain_trigger.txt
     params:
       - IMAGE_SIZE
       - EPOCHS
@@ -35,13 +36,12 @@ stages:
       - AUGMENTATION
     outs:
       - artifacts/training/model.h5
-
   evaluation:
     cmd: python src/ChestCancerClassifier/pipeline/stage_04_model_evaluation.py
     deps:
       - src/ChestCancerClassifier/pipeline/stage_04_model_evaluation.py
       - config/config.yaml
-      - artifacts/data_ingestion/fall and nonfall
+      - artifacts/data_ingestion/Augmented images  # UPDATED
       - artifacts/training/model.h5
     params:
       - IMAGE_SIZE
@@ -49,12 +49,3 @@ stages:
     metrics:
       - scores.json:
           cache: false
-
-  feedback_retraining:
-    cmd: python src/ChestCancerClassifier/pipeline/stage_05_feedback_retrain.py
-    deps:
-      - src/ChestCancerClassifier/pipeline/stage_05_feedback_retrain.py
-      - incorrect_predictions.json
-      - artifacts/training/model.h5
-    outs:
-      - artifacts/retraining/updated_model.h5
